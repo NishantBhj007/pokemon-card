@@ -1,0 +1,41 @@
+@media (width<400px) {
+  .pokemon-card {
+    width: 15rem;
+    height: 15rem;
+    padding: 1.6rem;
+    min-height: 17rem;
+  }
+  .pokemon-image {
+    width: 36%;
+    height: 5rem;
+  }
+
+  .pokemon-name {
+    font-size: 13px;
+    text-align: center;
+    color: #000;
+    text-transform: capitalize;
+    margin-top: 2.4px;
+  }
+
+  .pokemon-highlight & p {
+    padding: 0.6px 0.4px;
+  }
+  .grid-three-cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.6rem;
+    text-align: center;
+    margin: -0.8rem 0;
+    align-items: end;
+  }
+  .pokemon-card::before {
+    height: 41%;
+    width: 93%;
+  }
+
+  p,
+  span {
+    font-size: 10.6px;
+  }
+}
